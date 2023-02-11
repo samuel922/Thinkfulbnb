@@ -95,6 +95,12 @@ form {
   padding: 10px;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 form label {
   font-weight: bold;
 }
