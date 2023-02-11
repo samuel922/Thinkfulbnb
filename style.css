@@ -118,6 +118,7 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  cursor: pointer;
 }
 
 /* ------ About -------- */
@@ -149,3 +150,52 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 120px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  form button {
+    font-size: 12px;
+    width: 20%;
+  }
+
+  /* About */
+  #about .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #ideas .group {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #host .group {
+    display: flex;
+    flex-direction: row;
+  }
+}
